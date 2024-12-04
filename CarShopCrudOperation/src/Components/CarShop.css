@@ -1,0 +1,130 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.container{
+    max-width: 1100px;
+    margin: 0px auto;
+    padding: 20px;
+
+}
+body{
+    font-family: "Roboto", serif;
+    background-color: #DEDEDE;
+}
+.container .form-data{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+    color: red;
+    font-size: 35px;
+}
+.container .form-data .form-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    margin: 5px 0px 5px 0px;
+}
+.container .form-data label{
+    font-size: 25px;
+    display: block;
+}
+.container .form-data .form-btn{
+    width: 30%;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 20px;
+    background-color: #2f86ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+}
+.container .form-data .form-btn:hover{
+    background-color: #0051ff;
+}
+.car-form{
+    padding: 20px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+}
+.car-table{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FAFAFA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container .car-table .cardata{
+    display: inline-block;
+    background-color: #ECECEC;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container .car-table .cardata thead tr th{
+    font-size: 20px;
+    padding: 10px;
+}
+.container .car-table .cardata tbody tr td{
+    font-size: 15px;
+    padding: 5px;
+}
+.container .car-table .cardata tbody tr .edit-btn{
+    color: white;
+    background-color: green;
+    padding: 2px 8px;
+    border: none;
+    cursor: pointer;
+}
+.container .car-table .cardata tbody tr .delete-btn{
+    color: white;
+    background-color: red;
+    padding: 2px 8px;
+    border: none;
+    cursor: pointer;
+}
+.container .car-table h2{
+    color: blue;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.container .back-btn{
+    text-decoration: none;
+    background-color: #2f86ff;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+}
+.container .back-btn:hover{
+    background-color: #0051ff;
+}
+.container .addcar-btn{
+    text-decoration: none;
+    background-color: #2f86ff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+}
+.container .addcar-btn:hover{
+    background-color: #0051ff;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FF3D00;
+    border-bottom-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 3s linear infinite;
+    }
